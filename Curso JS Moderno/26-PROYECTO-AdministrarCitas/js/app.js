@@ -11,6 +11,7 @@ const contenedorCitas = document.querySelector('#citas');
 
 let editando;
 
+
 class Citas {
     constructor() {
         this.citas = [];
@@ -141,8 +142,6 @@ class UI {
 const ui = new UI();
 const administrarCitas = new Citas();
 
-
-eventListeners();
 function eventListeners() {
     mascotaInput.addEventListener('input', datosCita);
     propietarioInput.addEventListener('input', datosCita);
