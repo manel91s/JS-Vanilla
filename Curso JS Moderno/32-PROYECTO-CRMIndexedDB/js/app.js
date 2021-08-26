@@ -1,5 +1,6 @@
 (function () {
     const listadoClientes = document.querySelector('#listado-clientes');
+    
 
     document.addEventListener('DOMContentLoaded', () => {
         crearDB();
